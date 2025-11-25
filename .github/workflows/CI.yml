@@ -1,17 +1,22 @@
 on:
   push:
     branches:
-     - calculator
+      - calculator
+
 jobs:
   test-lint:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: |
-              npm test
-     - name: Install dependencies
-       run: npm install
 
-defaults:
-  run:
-    working-directory: calculator-shevi/tests
+    defaults:
+      run:
+        working-directory: calculator-shevi/tests
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
