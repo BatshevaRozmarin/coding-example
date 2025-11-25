@@ -50,4 +50,3 @@ export class CompleteExercise {
         return result;
     }
 }
-

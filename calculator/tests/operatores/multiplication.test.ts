@@ -22,4 +22,3 @@ describe('multiply', () => {
         expect((multiply).multiply()).toBe(-50);
     });
 });
-

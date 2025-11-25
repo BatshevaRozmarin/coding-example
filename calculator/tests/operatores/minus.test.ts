@@ -22,4 +22,3 @@ describe('MinusOperator', () => {
     expect((minus).minus()).toBe(15); 
   });
 });
-

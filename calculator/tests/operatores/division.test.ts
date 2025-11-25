@@ -26,4 +26,3 @@ describe('divide', () => {
     expect((division).divide()).toBe(-10);
   });
 });
-

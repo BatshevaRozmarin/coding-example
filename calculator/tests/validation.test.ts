@@ -30,4 +30,3 @@ describe('Valide', () => {
         expect(() => valid.isValidExpression()).toThrow("Syntax Error:Cannot has decimal without numbers");
     });
 });
-

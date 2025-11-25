@@ -9,7 +9,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: calculator-shevi/tests
+        working-directory: calculator/tests
 
     steps:
       - name: Checkout repository
