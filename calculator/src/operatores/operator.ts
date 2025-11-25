@@ -6,3 +6,4 @@ export class Operator {
         this.num2 = num2;
     }
 }
+

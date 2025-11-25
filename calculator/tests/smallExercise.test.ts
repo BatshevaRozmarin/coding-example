@@ -28,3 +28,4 @@ describe('smallExercise', () => {
         expect(() => exercise.checkOp()).toThrow("Unsupported operator: %");
     });
 });
+

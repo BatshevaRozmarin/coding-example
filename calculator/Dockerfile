@@ -7,3 +7,4 @@ RUN npm run build
 EXPOSE 3000
 RUN npx tsc
 CMD ["node", "dist/server.js"]
+

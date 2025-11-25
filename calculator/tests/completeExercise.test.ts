@@ -40,3 +40,4 @@ describe('ExpressionParser', () => {
         expect(parser.calculate()).toEqual(5);
     });
 });
+

@@ -22,3 +22,4 @@ describe('plusOperator', () => {
     expect((plus).add()).toBe(-3.5);
   });
 });
+

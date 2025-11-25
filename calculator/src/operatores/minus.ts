@@ -5,3 +5,4 @@ export class Subtraction extends Operator {
         return this.num1 - this.num2 ;
     }
 }
+

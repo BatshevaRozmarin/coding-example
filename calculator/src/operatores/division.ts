@@ -8,3 +8,4 @@ export class DivisionOperator extends Operator {
         return this.num1 / this.num2;
     }
 }
+
