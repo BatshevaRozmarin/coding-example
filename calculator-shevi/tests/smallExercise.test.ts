@@ -1,7 +1,6 @@
 import { SmallExercise } from '../src/smallExercise';
 
 describe('smallExercise', () => {
-
     test('should correctly add two numbers', () => {
         const exercise = new SmallExercise(5, 3, '+');
         expect(exercise.checkOp()).toBe(8);
