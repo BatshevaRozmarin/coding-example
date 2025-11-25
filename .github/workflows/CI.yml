@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - calculator
+      - Calculate
 
 jobs:
   test-lint:
@@ -9,7 +9,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: calculator-shevi/tests
+        working-directory: calculator/tests
 
     steps:
       - name: Checkout repository
