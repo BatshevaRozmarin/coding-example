@@ -1,5 +1,6 @@
 import { DivisionOperator } from '../../src/operatores/division';
 
+
 describe('divide', () => {
   test('should correctly divide two positive numbers', () => {
     const division = new DivisionOperator(10, 2);

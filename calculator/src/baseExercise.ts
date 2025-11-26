@@ -3,7 +3,8 @@ import { Subtraction } from "./operatores/minus"
 import { Multiplication } from "./operatores/multiplication"
 import { Addition } from "./operatores/plus"
 
-export class SmallExercise {
+
+export class BaseExercise {
     num1: number
     num2: number
     op: string
@@ -12,7 +13,7 @@ export class SmallExercise {
         this.num2 = num2
         this.op = op
     }
-    checkOp() {
+    CalculationByOperator() {
         switch (this.op) {
             case "+":
                 const plus = new Addition(this.num1, this.num2);

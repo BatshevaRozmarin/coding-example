@@ -23,6 +23,45 @@ This project creates a calculator that accepts an exercise and returns the corre
 
 ---
 
+## Diagram of the project structure
+
+```text
+
+├── src
+│   └── operatores
+        └──division.ts
+        └──minus.ts
+        └──multiplication.ts
+        └──operator.ts
+        └──plus.ts
+    └──CompleteExercise.ts
+    └──BaseExercise.ts
+    └──validation.ts
+    └──server.ts
+    └──
+└── test
+    └── operatores
+        └──division.test.ts
+        └──minus.test.ts
+        └──multiplication.test.ts
+        └──operator.test.ts
+        └──plus.test.ts
+    └──CompleteExercise.test.ts
+    └──BaseExercise.test.ts
+    └──validation.test.ts
+    └──server.test.ts
+└── .env
+└── .env.sample
+└── eslintrc.js
+└── .gitignore
+└── Dockerfile
+└── jest.config.js
+└── package.json
+└── README.md
+└── tsconfig.json
+
+```
+
 1. Navigate to the root directory of the
 project (where `dockerfile` is located).
 

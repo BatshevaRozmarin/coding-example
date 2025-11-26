@@ -1,5 +1,6 @@
 import { Validate } from '../src/validation';
 
+
 describe('Valide', () => {
     test('should return correctly result about invalid exercise', () => {
         const valid = new Validate('1+2*3/4');

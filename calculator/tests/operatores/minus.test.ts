@@ -1,5 +1,6 @@
 import { Subtraction } from '../../src/operatores/minus';
 
+
 describe('MinusOperator', () => {
   test('should return the correct difference for positive numbers', () => {
     const minus = new Subtraction(10, 5);

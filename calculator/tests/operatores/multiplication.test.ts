@@ -1,5 +1,6 @@
 import { Multiplication } from '../../src/operatores/multiplication';
 
+
 describe('multiply', () => {
     test('should return the correct multiplication of two positive numbers', () => {
         const multiply = new Multiplication(2, 3)

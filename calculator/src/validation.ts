@@ -1,5 +1,6 @@
 import { CompleteExercise } from "./completeExercise";
 
+
 export class Validate {
     exercise: string
     constructor(exercise: string) {

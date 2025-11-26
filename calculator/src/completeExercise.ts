@@ -1,4 +1,5 @@
-import { SmallExercise } from "./smallExercise"
+import { BaseExercise } from "./baseExercise"
+
 
 export class CompleteExercise {
     exercise: string
@@ -16,13 +17,13 @@ export class CompleteExercise {
             }
             return result;
         }
-        catch (error: any) {
+        catch (error:any) {
             throw error.message
         }
     }
     sendSmallExercise(num1: number, num2: number, op: string): number {
-        const smallExercise = new SmallExercise(num1, num2, op)
-        return smallExercise.checkOp();
+        const smallExercise = new BaseExercise(num1, num2, op)
+        return smallExercise.CalculationByOperator();
     }
     updateExercise(arr: string[], result: number, j: number): string[] {
         const stringResult = result.toString();
